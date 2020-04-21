@@ -1,23 +1,31 @@
 {
-  "name": "cryptr-cli-encrypt",
+  "name": "cryptr-cli",
   "version": "1.0.0",
   "description": "Encrypt strings with cryptr from the CLI",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "cryptr-encrypt": "./bin/encrypt.js",
+    "cryptr-decrypt": "./bin/decrypt.js"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chriswaugh/cryptr-cli-encrypt.git"
+  },
+  "engines": {
+    "node": "^12.16.2"
   },
   "keywords": [
     "cryptr",
     "cli"
   ],
+  "preferGlobal": true,
   "author": "Chris Waugh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chriswaugh/cryptr-cli-encrypt/issues"
   },
-  "homepage": "https://github.com/chriswaugh/cryptr-cli-encrypt#readme"
+  "homepage": "https://github.com/chriswaugh/cryptr-cli-encrypt#readme",
+  "dependencies": {
+    "cryptr": "^6.0.2"
+  }
 }
