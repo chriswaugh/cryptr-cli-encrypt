@@ -14,4 +14,4 @@ Encrypt:
 
 Decrypt:
 
-`cryptr-encrypt "encryption key" "string to encrypt"`
+`cryptr-decrypt "encryption key" "string to decrypt"`
