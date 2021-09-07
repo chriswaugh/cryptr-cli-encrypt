@@ -1,6 +1,6 @@
 {
   "name": "cryptr-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encrypt strings with cryptr from the CLI",
   "bin": {
     "cryptr-encrypt": "./bin/encrypt.js",
